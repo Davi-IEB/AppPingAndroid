@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             x:Class="AppPingAndroid.Centros"
+             Style="{StaticResource PageStyle}"
+             Title="Planejamento e Controle de Produção - Centros de Trabalho">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="LogoPingTransp.ico"/>
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Frame BackgroundColor="#ED2500" Padding="10" CornerRadius="5" >
+                <Image Grid.Column="1" Source="LogoIebBranco" HorizontalOptions="Start" HeightRequest="50"/>
+            </Frame>
+            <Label x:Name="lblCaminho" Text=""/>
+            <ImageButton 
+                x:Name="BtnCapacidadeCritica"
+                Source="maquina_critica"
+                BackgroundColor="GhostWhite"
+                Margin="0,0,30,0"
+                HeightRequest="80"
+                WidthRequest="300"
+                HorizontalOptions="EndAndExpand"
+                Padding="5"
+                Clicked="BtnCapacidadeCritica_Clicked"
+                android:ImageButton.IsShadowEnabled="true"
+                android:ImageButton.ShadowColor="Gray"
+                android:ImageButton.ShadowRadius="12">
+                <android:ImageButton.ShadowOffset>
+                    <Size>
+                        <x:Arguments>
+                            <x:Double>10</x:Double>
+                            <x:Double>10</x:Double>
+                        </x:Arguments>
+                    </Size>
+                </android:ImageButton.ShadowOffset>
+            </ImageButton>
+            <ListView 
+                x:Name="lvCentros"
+                Margin="30,10,30,0"
+                RowHeight="120"            
+                VerticalScrollBarVisibility="Always"
+                SelectionMode="Single"
+                HasUnevenRows="True"
+                ItemTapped="lvCentros_ItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell x:Name="Linha" Tapped="Linha_Tapped">
+                            <StackLayout Orientation="Horizontal">
+                                <ImageButton
+                                        Padding="10"
+                                        Source="marcaTransp" 
+                                        Margin="20,0,0,0" 
+                                        BackgroundColor="GhostWhite"
+                                        HeightRequest="100" 
+                                        WidthRequest="100" 
+                                        VerticalOptions="CenterAndExpand"
+                                        IsEnabled="False"
+                                        android:ImageButton.IsShadowEnabled="true"
+                                        android:ImageButton.ShadowColor="Gray"
+                                        android:ImageButton.ShadowRadius="12">
+                                    <android:ImageButton.ShadowOffset>
+                                        <Size>
+                                            <x:Arguments>
+                                                <x:Double>10</x:Double>
+                                                <x:Double>10</x:Double>
+                                            </x:Arguments>
+                                        </Size>
+                                    </android:ImageButton.ShadowOffset>
+                                </ImageButton>
+                                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                                    <Label Text="{Binding Cod_cent_trab}" Margin="10,0,0,0" FontSize="Title" TextColor="Black" FontAttributes="Bold"/>
+                                    <Label Text="{Binding Den_cent_trab}" Margin="10,0,0,0" FontSize="Subtitle" FontAttributes="Bold" TextColor="Gray"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

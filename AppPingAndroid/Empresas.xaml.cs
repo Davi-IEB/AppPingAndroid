@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppPingAndroid.Modelo;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -13,18 +14,18 @@ namespace AppPingAndroid
         public MainPage()
         {
             InitializeComponent();
+            lblCaminho.Text = "Caminho://ITAESBRA/";
         }
-
-        private void BtnDiadema_Clicked(object sender, EventArgs e)
+        private async void BtnDiadema_Clicked(object sender, EventArgs e)
         {
-
+            Empresas.Empresa = "01";
+            await Navigation.PushAsync(new Setor());
         }
-
-        private void BtnIgarassu_Clicked(object sender, EventArgs e)
+        private async void BtnIgarassu_Clicked(object sender, EventArgs e)
         {
-
+            Empresas.Empresa = "12";
+            await Navigation.PushAsync(new Setor());
         }
-
         private async void BtnSair_Clicked(object sender, EventArgs e)
         {
             var resultado = await DisplayAlert("Ping", "Deseja mesmo sair?", "Sim", "Não");

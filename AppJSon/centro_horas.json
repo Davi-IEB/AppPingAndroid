@@ -1,0 +1,1199 @@
+[
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9312,
+  "den_cent_trab": "PRENSA EXCEN. 110TN S\/ALIM.",
+  "cod_equip": "PR-0128",
+  "horas_necessarias": 51
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9302,
+  "den_cent_trab": "PRENSA EXCEN. 400TN S\/ALIM.",
+  "cod_equip": "PR-0158",
+  "horas_necessarias": 66
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9312,
+  "den_cent_trab": "PRENSA EXCEN. 110TN S\/ALIM.",
+  "cod_equip": "PR-0085",
+  "horas_necessarias": 16
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9330,
+  "den_cent_trab": "PRENSA EXCEN. 600 TN C\/ALIM.",
+  "cod_equip": "PR-0447",
+  "horas_necessarias": 150
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9307,
+  "den_cent_trab": "PRENSA EXCEN. 160TN S\/ALIM.",
+  "cod_equip": "PR-0123",
+  "horas_necessarias": 10
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9312,
+  "den_cent_trab": "PRENSA EXCEN. 110TN S\/ALIM.",
+  "cod_equip": "PR-0267",
+  "horas_necessarias": 20
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9320,
+  "den_cent_trab": "PRENSA EXCEN. 500TN S\/ALIM.",
+  "cod_equip": "PR-0430",
+  "horas_necessarias": 60
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9315,
+  "den_cent_trab": "PRENSA EXCEN. 250TN S\/ALIM.",
+  "cod_equip": "PR-0435",
+  "horas_necessarias": 63
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9308,
+  "den_cent_trab": "PRENSA EXCEN. 260TN C\/ALIM.",
+  "cod_equip": "PR-0438",
+  "horas_necessarias": 56
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9315,
+  "den_cent_trab": "PRENSA EXCEN. 250TN S\/ALIM.",
+  "cod_equip": "PR-0420",
+  "horas_necessarias": 68
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9308,
+  "den_cent_trab": "PRENSA EXCEN. 260TN C\/ALIM.",
+  "cod_equip": "PR-0426",
+  "horas_necessarias": 69
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9306,
+  "den_cent_trab": "PRENSA EXCEN. 160TN C\/ALIM.",
+  "cod_equip": "PR-0251",
+  "horas_necessarias": 20
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9302,
+  "den_cent_trab": "PRENSA EXCEN. 400TN S\/ALIM.",
+  "cod_equip": "PR-0412",
+  "horas_necessarias": 74
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9325,
+  "den_cent_trab": "PRENSA EXCEN. 500TN C\/ALIM.",
+  "cod_equip": "PR-0439",
+  "horas_necessarias": 55
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9320,
+  "den_cent_trab": "PRENSA EXCEN. 500TN S\/ALIM.",
+  "cod_equip": "PR-0432",
+  "horas_necessarias": 125
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9328,
+  "den_cent_trab": "PRENSA EXCEN. 1000TN C\/ALIM.",
+  "cod_equip": "PR-0443",
+  "horas_necessarias": 88
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9332,
+  "den_cent_trab": "PRENSA EXCEN 250 TN C\/ALIM",
+  "cod_equip": "PR-0419",
+  "horas_necessarias": 39
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9326,
+  "den_cent_trab": "PRENSA EXCEN. 500TN TRANSF",
+  "cod_equip": "PR-0442",
+  "horas_necessarias": 73
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9334,
+  "den_cent_trab": "PRENSA EXCEN. 800TN C\/ALIM.",
+  "cod_equip": "PR-0448",
+  "horas_necessarias": 26
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9320,
+  "den_cent_trab": "PRENSA EXCEN. 500TN S\/ALIM.",
+  "cod_equip": "PR-0431",
+  "horas_necessarias": 91
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9327,
+  "den_cent_trab": "PRENSA EXCEN. 1000TN TRANSF",
+  "cod_equip": "PR-0444",
+  "horas_necessarias": 175
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9307,
+  "den_cent_trab": "PRENSA EXCEN. 160TN S\/ALIM.",
+  "cod_equip": "PR-0445",
+  "horas_necessarias": 15
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9306,
+  "den_cent_trab": "PRENSA EXCEN. 160TN C\/ALIM.",
+  "cod_equip": "PR-0186",
+  "horas_necessarias": 26
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9308,
+  "den_cent_trab": "PRENSA EXCEN. 260TN C\/ALIM.",
+  "cod_equip": "PR-0065",
+  "horas_necessarias": 95
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9308,
+  "den_cent_trab": "PRENSA EXCEN. 260TN C\/ALIM.",
+  "cod_equip": "PR-0437",
+  "horas_necessarias": 44
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9329,
+  "den_cent_trab": "PRENSA EXCEN. 600 TN S\/ALIM.",
+  "cod_equip": "PR-0446",
+  "horas_necessarias": 172
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9302,
+  "den_cent_trab": "PRENSA EXCEN. 400TN S\/ALIM.",
+  "cod_equip": "PR-0421",
+  "horas_necessarias": 124
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9325,
+  "den_cent_trab": "PRENSA EXCEN. 500TN C\/ALIM.",
+  "cod_equip": "PR-0434",
+  "horas_necessarias": 84
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9306,
+  "den_cent_trab": "PRENSA EXCEN. 160TN C\/ALIM.",
+  "cod_equip": "PR-0129",
+  "horas_necessarias": 44
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9306,
+  "den_cent_trab": "PRENSA EXCEN. 160TN C\/ALIM.",
+  "cod_equip": "PR-0252",
+  "horas_necessarias": 19
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9302,
+  "den_cent_trab": "PRENSA EXCEN. 400TN S\/ALIM.",
+  "cod_equip": "PR-0154",
+  "horas_necessarias": 83
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9518,
+  "den_cent_trab": "CELULA ROBO 1 GEM - 5 ROBOS",
+  "cod_equip": "CELROB-GEM1",
+  "horas_necessarias": 178
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9508,
+  "den_cent_trab": "ROBOT SOLDA MIG\/MAG",
+  "cod_equip": "RM-0007",
+  "horas_necessarias": 89
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0465",
+  "horas_necessarias": 57
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0440",
+  "horas_necessarias": 37
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0462",
+  "horas_necessarias": 23
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9508,
+  "den_cent_trab": "ROBOT SOLDA MIG\/MAG",
+  "cod_equip": "RM-0006",
+  "horas_necessarias": 19
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9508,
+  "den_cent_trab": "ROBOT SOLDA MIG\/MAG",
+  "cod_equip": "RM-0009",
+  "horas_necessarias": 98
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9520,
+  "den_cent_trab": "SOLDA TUCKER",
+  "cod_equip": "TK-0001",
+  "horas_necessarias": 32
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0434",
+  "horas_necessarias": 13
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9508,
+  "den_cent_trab": "ROBOT SOLDA MIG\/MAG",
+  "cod_equip": "RM-0004",
+  "horas_necessarias": 54
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0451",
+  "horas_necessarias": 62
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0456",
+  "horas_necessarias": 82
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0470",
+  "horas_necessarias": 36
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9507,
+  "den_cent_trab": "SOLDA MIG",
+  "cod_equip": "MA-0001",
+  "horas_necessarias": 50
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0438",
+  "horas_necessarias": 29
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9516,
+  "den_cent_trab": "ROBOT SOLDA PONTO",
+  "cod_equip": "RP-0007",
+  "horas_necessarias": 140
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0468",
+  "horas_necessarias": 32
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9516,
+  "den_cent_trab": "ROBOT SOLDA PONTO",
+  "cod_equip": "RP-0011",
+  "horas_necessarias": 9
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9523,
+  "den_cent_trab": "CELULA ROBO 3 GEM - 3 ROBOS",
+  "cod_equip": "CELROB-GEM4",
+  "horas_necessarias": 73
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9518,
+  "den_cent_trab": "CELULA ROBO 1 GEM - 5 ROBOS",
+  "cod_equip": "CELROB-HYUN",
+  "horas_necessarias": 150
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0467",
+  "horas_necessarias": 5
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9516,
+  "den_cent_trab": "ROBOT SOLDA PONTO",
+  "cod_equip": "RP-0010",
+  "horas_necessarias": 6
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0454",
+  "horas_necessarias": 35
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9516,
+  "den_cent_trab": "ROBOT SOLDA PONTO",
+  "cod_equip": "RP-0008",
+  "horas_necessarias": 50
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0455",
+  "horas_necessarias": 23
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9516,
+  "den_cent_trab": "ROBOT SOLDA PONTO",
+  "cod_equip": "RP-0004",
+  "horas_necessarias": 56
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0463",
+  "horas_necessarias": 21
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0453",
+  "horas_necessarias": 3
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9516,
+  "den_cent_trab": "ROBOT SOLDA PONTO",
+  "cod_equip": "RP-0005",
+  "horas_necessarias": 305
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9518,
+  "den_cent_trab": "CELULA ROBO 1 GEM - 5 ROBOS",
+  "cod_equip": "CELROB-GEM7",
+  "horas_necessarias": 116
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9520,
+  "den_cent_trab": "SOLDA TUCKER",
+  "cod_equip": "TK-0002",
+  "horas_necessarias": 34
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9516,
+  "den_cent_trab": "ROBOT SOLDA PONTO",
+  "cod_equip": "RP-0006",
+  "horas_necessarias": 94
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9516,
+  "den_cent_trab": "ROBOT SOLDA PONTO",
+  "cod_equip": "RP-0014",
+  "horas_necessarias": 6
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9516,
+  "den_cent_trab": "ROBOT SOLDA PONTO",
+  "cod_equip": "RP-0016",
+  "horas_necessarias": 39
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0446",
+  "horas_necessarias": 24
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9519,
+  "den_cent_trab": "CELULA ROBO 2 GEM - 3 ROBOS",
+  "cod_equip": "CELROB-GEM2",
+  "horas_necessarias": 171
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0466",
+  "horas_necessarias": 22
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9508,
+  "den_cent_trab": "ROBOT SOLDA MIG\/MAG",
+  "cod_equip": "RM-0005",
+  "horas_necessarias": 23
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0442",
+  "horas_necessarias": 14
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0445",
+  "horas_necessarias": 3
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9523,
+  "den_cent_trab": "CELULA ROBO 3 GEM - 3 ROBOS",
+  "cod_equip": "CELROB-GEM5",
+  "horas_necessarias": 73
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9508,
+  "den_cent_trab": "ROBOT SOLDA MIG\/MAG",
+  "cod_equip": "RM-0003",
+  "horas_necessarias": 27
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9516,
+  "den_cent_trab": "ROBOT SOLDA PONTO",
+  "cod_equip": "RP-0001",
+  "horas_necessarias": 84
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0432",
+  "horas_necessarias": 22
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0460",
+  "horas_necessarias": 27
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0433",
+  "horas_necessarias": 55
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0461",
+  "horas_necessarias": 10
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9516,
+  "den_cent_trab": "ROBOT SOLDA PONTO",
+  "cod_equip": "RP-0012",
+  "horas_necessarias": 18
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9521,
+  "den_cent_trab": "CELULA ROBO 4 GMY - 2 ROBOS",
+  "cod_equip": "CELROB-GMI6",
+  "horas_necessarias": 176
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0443",
+  "horas_necessarias": 67
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0447",
+  "horas_necessarias": 30
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0458",
+  "horas_necessarias": 51
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0449",
+  "horas_necessarias": 4
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9519,
+  "den_cent_trab": "CELULA ROBO 2 GEM - 3 ROBOS",
+  "cod_equip": "CELROB-GEM3",
+  "horas_necessarias": 237
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9516,
+  "den_cent_trab": "ROBOT SOLDA PONTO",
+  "cod_equip": "RP-0020",
+  "horas_necessarias": 214
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "USINAGEM",
+  "cod_cent_trab": 9412,
+  "den_cent_trab": "MAQ. DIVERSAS - USINAGEM",
+  "cod_equip": "RO-017",
+  "horas_necessarias": 0
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "USINAGEM",
+  "cod_cent_trab": 9600,
+  "den_cent_trab": "MONTAGEM",
+  "cod_equip": "BM-0006",
+  "horas_necessarias": 28
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "USINAGEM",
+  "cod_cent_trab": 9600,
+  "den_cent_trab": "MONTAGEM",
+  "cod_equip": "BM-0010",
+  "horas_necessarias": 55
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "USINAGEM",
+  "cod_cent_trab": 9600,
+  "den_cent_trab": "MONTAGEM",
+  "cod_equip": "BM-0005",
+  "horas_necessarias": 12
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "USINAGEM",
+  "cod_cent_trab": 9600,
+  "den_cent_trab": "MONTAGEM",
+  "cod_equip": "BM-0011",
+  "horas_necessarias": 40
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "USINAGEM",
+  "cod_cent_trab": 9600,
+  "den_cent_trab": "MONTAGEM",
+  "cod_equip": "BM-0003",
+  "horas_necessarias": 14
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "USINAGEM",
+  "cod_cent_trab": 9600,
+  "den_cent_trab": "MONTAGEM",
+  "cod_equip": "BM-0001",
+  "horas_necessarias": 41
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "USINAGEM",
+  "cod_cent_trab": 9412,
+  "den_cent_trab": "MAQ. DIVERSAS - USINAGEM",
+  "cod_equip": "RO-018",
+  "horas_necessarias": 21
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "USINAGEM",
+  "cod_cent_trab": 9600,
+  "den_cent_trab": "MONTAGEM",
+  "cod_equip": "BM-0004",
+  "horas_necessarias": 1
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "USINAGEM",
+  "cod_cent_trab": 9412,
+  "den_cent_trab": "MAQ. DIVERSAS - USINAGEM",
+  "cod_equip": "RO-016",
+  "horas_necessarias": 14
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "USINAGEM",
+  "cod_cent_trab": 9600,
+  "den_cent_trab": "MONTAGEM",
+  "cod_equip": "BM-0008",
+  "horas_necessarias": 4
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9330,
+  "den_cent_trab": "PRENSA EXCEN. 600 TN C\/ALIM.",
+  "cod_equip": "PR-0450",
+  "horas_necessarias": 18
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9302,
+  "den_cent_trab": "PRENSA EXCEN. 400TN S\/ALIM.",
+  "cod_equip": "PR-0428",
+  "horas_necessarias": 13
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9332,
+  "den_cent_trab": "PRENSA EXCEN 250 TN C\/ALIM",
+  "cod_equip": "PR-0452",
+  "horas_necessarias": 0
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9332,
+  "den_cent_trab": "PRENSA EXCEN 250 TN C\/ALIM",
+  "cod_equip": "PR-0451",
+  "horas_necessarias": 0
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9329,
+  "den_cent_trab": "PRENSA EXCEN. 600 TN S\/ALIM.",
+  "cod_equip": "PR-0454",
+  "horas_necessarias": 15
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9306,
+  "den_cent_trab": "PRENSA EXCEN. 160TN C\/ALIM.",
+  "cod_equip": "PR-0422",
+  "horas_necessarias": 4
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9325,
+  "den_cent_trab": "PRENSA EXCEN. 500TN C\/ALIM.",
+  "cod_equip": "PR-0440",
+  "horas_necessarias": 10
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9316,
+  "den_cent_trab": "PRENSA EXCEN. 260TN S\/ALIM.",
+  "cod_equip": "PR-0402",
+  "horas_necessarias": 8
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9302,
+  "den_cent_trab": "PRENSA EXCEN. 400TN S\/ALIM.",
+  "cod_equip": "PR-0427",
+  "horas_necessarias": 43
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9333,
+  "den_cent_trab": "PRENSA EXCEN. 800TN TRANSF",
+  "cod_equip": "PR-0453",
+  "horas_necessarias": 41
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9320,
+  "den_cent_trab": "PRENSA EXCEN. 500TN S\/ALIM.",
+  "cod_equip": "PR-0433",
+  "horas_necessarias": 2
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9307,
+  "den_cent_trab": "PRENSA EXCEN. 160TN S\/ALIM.",
+  "cod_equip": "PR-0423",
+  "horas_necessarias": 1
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9527,
+  "den_cent_trab": "SOLDA SERVO MOTOR",
+  "cod_equip": "SP-0450",
+  "horas_necessarias": 12
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9526,
+  "den_cent_trab": "SOLDA CARROSSEL",
+  "cod_equip": "SP-0471",
+  "horas_necessarias": 10
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9528,
+  "den_cent_trab": "SOLDA 400 KVA",
+  "cod_equip": "SP-0472",
+  "horas_necessarias": 5
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9507,
+  "den_cent_trab": "SOLDA MIG",
+  "cod_equip": "RM-0001",
+  "horas_necessarias": 14
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0452",
+  "horas_necessarias": 9
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9529,
+  "den_cent_trab": "CELULA ROBOTIZADA UNDERBODY",
+  "cod_equip": "CELROB-UND4",
+  "horas_necessarias": 61
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9526,
+  "den_cent_trab": "SOLDA CARROSSEL",
+  "cod_equip": "SP-0457",
+  "horas_necessarias": 9
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9529,
+  "den_cent_trab": "CELULA ROBOTIZADA UNDERBODY",
+  "cod_equip": "CELROB-UND1",
+  "horas_necessarias": 51
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9526,
+  "den_cent_trab": "SOLDA CARROSSEL",
+  "cod_equip": "SP-0459",
+  "horas_necessarias": 14
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9526,
+  "den_cent_trab": "SOLDA CARROSSEL",
+  "cod_equip": "SP-0435",
+  "horas_necessarias": 20
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9529,
+  "den_cent_trab": "CELULA ROBOTIZADA UNDERBODY",
+  "cod_equip": "CELROB-UND3",
+  "horas_necessarias": 34
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0444",
+  "horas_necessarias": 5
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9529,
+  "den_cent_trab": "CELULA ROBOTIZADA UNDERBODY",
+  "cod_equip": "CELROB-UND2",
+  "horas_necessarias": 26
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO",
+  "cod_equip": "SP-0469",
+  "horas_necessarias": 5
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9516,
+  "den_cent_trab": "ROBOT SOLDA PONTO",
+  "cod_equip": "RP-0003",
+  "horas_necessarias": 12
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9507,
+  "den_cent_trab": "SOLDA MIG",
+  "cod_equip": "RM-0002",
+  "horas_necessarias": 13
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9520,
+  "den_cent_trab": "SOLDA TUCKER",
+  "cod_equip": "TK-0007",
+  "horas_necessarias": 2
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9527,
+  "den_cent_trab": "SOLDA SERVO MOTOR",
+  "cod_equip": "SP-0439",
+  "horas_necessarias": 11
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9524,
+  "den_cent_trab": "CELULA ROBOTIZADA LONGARINA",
+  "cod_equip": "CELROB-LONG",
+  "horas_necessarias": 49
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "USINAGEM",
+  "cod_cent_trab": 9405,
+  "den_cent_trab": "REBITADEIRA",
+  "cod_equip": "RO-020",
+  "horas_necessarias": 10
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "USINAGEM",
+  "cod_cent_trab": 9600,
+  "den_cent_trab": "MONTAGEM",
+  "cod_equip": "BM-0001",
+  "horas_necessarias": 0
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "USINAGEM",
+  "cod_cent_trab": 9600,
+  "den_cent_trab": "MONTAGEM",
+  "cod_equip": "BM-0002",
+  "horas_necessarias": 1
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "USINAGEM",
+  "cod_cent_trab": 9414,
+  "den_cent_trab": "GRAVACAO A LASER",
+  "cod_equip": "GR-0001",
+  "horas_necessarias": 8
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "USINAGEM",
+  "cod_cent_trab": 9407,
+  "den_cent_trab": "ROSQUEADEIRA",
+  "cod_equip": "RE-0032",
+  "horas_necessarias": 9
+ }
+]
