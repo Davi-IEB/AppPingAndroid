@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppPingAndroid.Android", "AppPingAndroid.Android\AppPingAndroid.Android.csproj", "{BED0F098-5828-40F7-95CB-A92399064730}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppPingAndroid", "AppPingAndroid\AppPingAndroid.csproj", "{15C60D25-2470-4035-BC3B-71FB280A731A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BED0F098-5828-40F7-95CB-A92399064730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED0F098-5828-40F7-95CB-A92399064730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED0F098-5828-40F7-95CB-A92399064730}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BED0F098-5828-40F7-95CB-A92399064730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED0F098-5828-40F7-95CB-A92399064730}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BED0F098-5828-40F7-95CB-A92399064730}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{15C60D25-2470-4035-BC3B-71FB280A731A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C60D25-2470-4035-BC3B-71FB280A731A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C60D25-2470-4035-BC3B-71FB280A731A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{15C60D25-2470-4035-BC3B-71FB280A731A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C60D25-2470-4035-BC3B-71FB280A731A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15C60D25-2470-4035-BC3B-71FB280A731A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D057DB1-5A84-449F-A395-8C96EBB7C72F}
+	EndGlobalSection
+EndGlobal
