@@ -1,0 +1,1 @@
+SELECT DISTINCT	cod_empresa, den_reduz, setor, cod_cent_trab, den_cent_trab FROM tb_centro_de_trabalho_970

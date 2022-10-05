@@ -1,0 +1,394 @@
+[
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9300,
+  "den_cent_trab": "GUILHOTINA"
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9302,
+  "den_cent_trab": "PRENSA EXCEN. 400TN S\/ALIM."
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9306,
+  "den_cent_trab": "PRENSA EXCEN. 160TN C\/ALIM."
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9307,
+  "den_cent_trab": "PRENSA EXCEN. 160TN S\/ALIM."
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9308,
+  "den_cent_trab": "PRENSA EXCEN. 260TN C\/ALIM."
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9312,
+  "den_cent_trab": "PRENSA EXCEN. 110TN S\/ALIM."
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9315,
+  "den_cent_trab": "PRENSA EXCEN. 250TN S\/ALIM."
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9316,
+  "den_cent_trab": "PRENSA EXCEN. 260TN S\/ALIM."
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9320,
+  "den_cent_trab": "PRENSA EXCEN. 500TN S\/ALIM."
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9325,
+  "den_cent_trab": "PRENSA EXCEN. 500TN C\/ALIM."
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9326,
+  "den_cent_trab": "PRENSA EXCEN. 500TN TRANSF"
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9327,
+  "den_cent_trab": "PRENSA EXCEN. 1000TN TRANSF"
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9328,
+  "den_cent_trab": "PRENSA EXCEN. 1000TN C\/ALIM."
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9329,
+  "den_cent_trab": "PRENSA EXCEN. 600 TN S\/ALIM."
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9330,
+  "den_cent_trab": "PRENSA EXCEN. 600 TN C\/ALIM."
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9332,
+  "den_cent_trab": "PRENSA EXCEN 250 TN C\/ALIM"
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9334,
+  "den_cent_trab": "PRENSA EXCEN. 800TN C\/ALIM."
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9507,
+  "den_cent_trab": "SOLDA MIG"
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9508,
+  "den_cent_trab": "ROBOT SOLDA MIG\/MAG"
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO"
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9516,
+  "den_cent_trab": "ROBOT SOLDA PONTO"
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9518,
+  "den_cent_trab": "CELULA ROBO 1 GEM - 5 ROBOS"
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9519,
+  "den_cent_trab": "CELULA ROBO 2 GEM - 3 ROBOS"
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9520,
+  "den_cent_trab": "SOLDA TUCKER"
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9521,
+  "den_cent_trab": "CELULA ROBO 4 GMY - 2 ROBOS"
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9523,
+  "den_cent_trab": "CELULA ROBO 3 GEM - 3 ROBOS"
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "USINAGEM",
+  "cod_cent_trab": 9402,
+  "den_cent_trab": "FURADEIRA"
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "USINAGEM",
+  "cod_cent_trab": 9403,
+  "den_cent_trab": "ROSQUEAD.\/FURADEIRA ESPECIAL"
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "USINAGEM",
+  "cod_cent_trab": 9407,
+  "den_cent_trab": "ROSQUEADEIRA"
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "USINAGEM",
+  "cod_cent_trab": 9412,
+  "den_cent_trab": "MAQ. DIVERSAS - USINAGEM"
+ },
+ {
+  "cod_empresa": "01",
+  "den_reduz": "ITADIADEMA",
+  "setor": "USINAGEM",
+  "cod_cent_trab": 9600,
+  "den_cent_trab": "MONTAGEM"
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9300,
+  "den_cent_trab": "GUILHOTINA"
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9302,
+  "den_cent_trab": "PRENSA EXCEN. 400TN S\/ALIM."
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9306,
+  "den_cent_trab": "PRENSA EXCEN. 160TN C\/ALIM."
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9307,
+  "den_cent_trab": "PRENSA EXCEN. 160TN S\/ALIM."
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9316,
+  "den_cent_trab": "PRENSA EXCEN. 260TN S\/ALIM."
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9320,
+  "den_cent_trab": "PRENSA EXCEN. 500TN S\/ALIM."
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9325,
+  "den_cent_trab": "PRENSA EXCEN. 500TN C\/ALIM."
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9329,
+  "den_cent_trab": "PRENSA EXCEN. 600 TN S\/ALIM."
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9330,
+  "den_cent_trab": "PRENSA EXCEN. 600 TN C\/ALIM."
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9332,
+  "den_cent_trab": "PRENSA EXCEN 250 TN C\/ALIM"
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9333,
+  "den_cent_trab": "PRENSA EXCEN. 800TN TRANSF"
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "ESTAMPARIA",
+  "cod_cent_trab": 9334,
+  "den_cent_trab": "PRENSA EXCEN. 800TN C\/ALIM."
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9507,
+  "den_cent_trab": "SOLDA MIG"
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9514,
+  "den_cent_trab": "SOLDA PROJECAO\/PONTO"
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9516,
+  "den_cent_trab": "ROBOT SOLDA PONTO"
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9520,
+  "den_cent_trab": "SOLDA TUCKER"
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9524,
+  "den_cent_trab": "CELULA ROBOTIZADA LONGARINA"
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9526,
+  "den_cent_trab": "SOLDA CARROSSEL"
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9527,
+  "den_cent_trab": "SOLDA SERVO MOTOR"
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9528,
+  "den_cent_trab": "SOLDA 400 KVA"
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "SOLDA",
+  "cod_cent_trab": 9529,
+  "den_cent_trab": "CELULA ROBOTIZADA UNDERBODY"
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "USINAGEM",
+  "cod_cent_trab": 9405,
+  "den_cent_trab": "REBITADEIRA"
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "USINAGEM",
+  "cod_cent_trab": 9407,
+  "den_cent_trab": "ROSQUEADEIRA"
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "USINAGEM",
+  "cod_cent_trab": 9414,
+  "den_cent_trab": "GRAVACAO A LASER"
+ },
+ {
+  "cod_empresa": 12,
+  "den_reduz": "IGARASSU",
+  "setor": "USINAGEM",
+  "cod_cent_trab": 9600,
+  "den_cent_trab": "MONTAGEM"
+ }
+]
