@@ -8,14 +8,25 @@ namespace AppPingAndroid.Servico
 {
     public class ServicoDeDados
     {
-        private const string RequestUriCentros = @"C:\ITAESBRA\AppPingAndroid\AppJSon\grupo_centro.json";
+        private const string RequestUriCentros = "https://raw.githubusercontent.com/Davi-IEB/AppPingAndroid/master/AppJSon/grupo_centro.json";
+        private const string RequestUriMaquinas = "https://raw.githubusercontent.com/Davi-IEB/AppPingAndroid/master/AppJSon/centro_horas.json";
+        private const string RequestUriProgramas = "";
 
         HttpClient centros = new HttpClient();
-        public async Task<List<Centros>> GetCentrosAsync()
+        HttpClient maquinas = new HttpClient();
+        HttpClient programas = new HttpClient();
+        public async Task<List<Centro>> GetCentrosAsync()
         {
             var response = await centros.GetStringAsync(RequestUriCentros);
-            var cts = JsonConvert.DeserializeObject<List<Centros>>(response);
+            var cts = JsonConvert.DeserializeObject<List<Centro>>(response);
             return cts;
         }
+        public async Task<List<Maquina>> GetMaquinasAsync()
+        {
+            var response2 = await maquinas.GetStringAsync(RequestUriMaquinas);
+            var maq = JsonConvert.DeserializeObject<List<Maquina>>(response2);
+            return maq;
+        }
+
     }
 }

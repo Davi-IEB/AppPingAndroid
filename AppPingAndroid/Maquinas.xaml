@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"            
+             x:Class="AppPingAndroid.Maquinas"
+             Style="{StaticResource Key=PageStyle}"
+             Title="Planejamento e Controle de Produção - Máquinas e Equipamentos">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="LogoPingTransp.ico"/>
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Frame BackgroundColor="#ED2500" Padding="10" CornerRadius="5" >
+                <Image Grid.Column="1" Source="LogoIebBranco" HorizontalOptions="Start" HeightRequest="50"/>
+            </Frame>
+            <Label x:Name="lblCaminho" Text=""/>
+            <ListView 
+                x:Name="lvMaquinas"
+                Margin="30,30,30,0"                
+                RowHeight="100"                
+                VerticalScrollBarVisibility="Always"
+                SelectionMode="Single"
+                HasUnevenRows="True"                
+               ItemTapped="lvMaquinas_ItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell x:Name="Linha" Tapped="Linha_Tapped">
+                            <StackLayout Orientation="Horizontal" Padding="10">
+                                <StackLayout Orientation="Vertical" HorizontalOptions="StartAndExpand">
+                                    <Label Text="{Binding Cod_equip}" TextColor="Black" FontSize="Title" FontAttributes="Bold"/>
+                                    <Label Text="{Binding Den_cent_trab}" TextColor="Black" FontSize="Subtitle"/>
+                                    <Grid ColumnDefinitions="*,*,*" HorizontalOptions="StartAndExpand">
+                                        <Frame CornerRadius="5" HasShadow="True" Padding="5">
+                                            <StackLayout Orientation="Vertical" Padding="2">
+                                                <Label Text="Hrs. Necessárias" TextColor="Black" FontSize="Caption" VerticalOptions="Start"/>
+                                                <Label Text="{Binding Horas_necessarias, StringFormat='{0:N1}'}" TextColor="Black" FontSize="Large" HorizontalOptions="Center" VerticalOptions="End"/>
+                                            </StackLayout>
+                                        </Frame>
+                                        <Frame Grid.Column="1" CornerRadius="5" HasShadow="True" Padding="5">
+                                            <StackLayout Grid.Column="1" Orientation="Vertical" VerticalOptions="Start">
+                                                <Label Text="Hrs. Disponíveis" FontSize="Caption" TextColor="Black"/>
+                                                <Label Text="{Binding Horas_disponiveis, StringFormat='{0:N1}'}" TextColor="Black" FontSize="Large" HorizontalOptions="Center" VerticalOptions="End"/>
+                                            </StackLayout>
+                                        </Frame>
+                                        <Frame Grid.Column="2" CornerRadius="5" HasShadow="True" Padding="5">
+                                            <StackLayout Grid.Column="2" Orientation="Vertical">
+                                                <Label Text="% Ocupação" TextColor="Black" FontSize="Caption" VerticalOptions="Start"/>
+                                                <Label x:Name="L" Text="{Binding Percentual, StringFormat='{0:P1}'}" TextColor="Black" FontSize="Large" HorizontalOptions="Center" VerticalOptions="End">
+                                                    <Label.Triggers>
+                                                        <DataTrigger TargetType="Label" Binding="{Binding StatusPercentual}" Value="Red">
+                                                            <Setter Property="TextColor" Value="Red"/>
+                                                        </DataTrigger>
+                                                        <DataTrigger TargetType="Label" Binding="{Binding StatusPercentual}" Value="Yellow">
+                                                            <Setter Property="TextColor" Value="OrangeRed"/>
+                                                        </DataTrigger>
+                                                        <DataTrigger TargetType="Label" Binding="{Binding StatusPercentual}" Value="Black">
+                                                            <Setter Property="TextColor" Value="Black"/>
+                                                        </DataTrigger>
+                                                    </Label.Triggers>
+                                                </Label>
+                                            </StackLayout>
+                                        </Frame>
+                                    </Grid>
+                                </StackLayout>
+                                <StackLayout Orientation="Vertical" HorizontalOptions="EndAndExpand">
+                                    <ImageButton
+                                        x:Name="BtnProgramacao"
+                                        Source="programacao"
+                                        HeightRequest="50" 
+                                        WidthRequest="200" 
+                                        BackgroundColor="GhostWhite"
+                                        HorizontalOptions="End"                                        
+                                        android:ImageButton.IsShadowEnabled="true"
+                                        android:ImageButton.ShadowColor="Gray"
+                                        android:ImageButton.ShadowRadius="10"
+                                        Clicked="BtnProgramacao_Clicked"                                        
+                                        CommandParameter="{Binding .}">
+                                        <android:ImageButton.ShadowOffset>
+                                            <Size>
+                                                <x:Arguments>
+                                                    <x:Double>10</x:Double>
+                                                    <x:Double>10</x:Double>
+                                                </x:Arguments>
+                                            </Size>
+                                        </android:ImageButton.ShadowOffset>
+                                    </ImageButton>
+                                    <ImageButton
+                                        x:Name="BtnEmergencia"
+                                        Source="emergencia"
+                                        HeightRequest="50" 
+                                        WidthRequest="200" 
+                                        BackgroundColor="GhostWhite"
+                                        HorizontalOptions="End"                                        
+                                        android:ImageButton.IsShadowEnabled="true"
+                                        android:ImageButton.ShadowColor="Gray"
+                                        android:ImageButton.ShadowRadius="10"
+                                        Clicked="BtnEmergencia_Clicked">
+                                        <android:ImageButton.ShadowOffset>
+                                            <Size>
+                                                <x:Arguments>
+                                                    <x:Double>10</x:Double>
+                                                    <x:Double>10</x:Double>
+                                                </x:Arguments>
+                                            </Size>
+                                        </android:ImageButton.ShadowOffset>
+                                    </ImageButton>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

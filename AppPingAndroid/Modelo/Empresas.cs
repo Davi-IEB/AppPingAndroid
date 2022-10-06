@@ -31,7 +31,7 @@ namespace AppPingAndroid.Modelo
             set { _maquina = value; }
         }
     }
-    public class Centros
+    public class Centro
     {
         public string Cod_empresa { get; set; }
         public string Den_reduz { get; set; }

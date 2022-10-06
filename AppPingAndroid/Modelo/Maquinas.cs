@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AppPingAndroid.Modelo
 {
-    public class Maquinas
+    public class Maquina
     {
         public string Cod_empresa { get; set; }
         public string Cod_cent_trab { get; set; }
