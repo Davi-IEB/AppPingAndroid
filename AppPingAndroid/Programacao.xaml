@@ -33,7 +33,7 @@
                                 <Frame Padding="10">
                                     <StackLayout Orientation="Horizontal">
                                         <Label Text="{Binding Sequencia}" TextColor="Black" FontSize="16" FontAttributes="Bold" VerticalOptions="CenterAndExpand"/>
-                                        <Image Source="{Binding Img}" HeightRequest="70" WidthRequest="70" Margin="15,0,0,0" VerticalOptions="CenterAndExpand"/>
+                                        <Image Source="semFoto.png" HeightRequest="70" WidthRequest="70" Margin="15,0,0,0" VerticalOptions="CenterAndExpand"/>
                                     </StackLayout>
                                 </Frame>
                                 <StackLayout Orientation="Vertical" Margin="5,0,0,0" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">

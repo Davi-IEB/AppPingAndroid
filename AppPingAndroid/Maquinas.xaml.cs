@@ -11,20 +11,20 @@ namespace AppPingAndroid
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Maquinas : ContentPage
     {
-        ServicoDeDados dataService;
+        readonly ServicoDeDados DataService;
         List<Maquina> maquinas;
         ViewCell cell;
         public Maquinas()
         {
             InitializeComponent();
-            dataService = new ServicoDeDados();
+            DataService = new ServicoDeDados();
             AtualizaDados();
 
         }
         private async void AtualizaDados()
         {
             HorasDisponiveis();
-            maquinas = await dataService.GetMaquinasAsync();
+            maquinas = await DataService.GetMaquinasAsync();
             foreach (var i in maquinas)
             {
                 i.Horas_disponiveis = Disponibilidade.HDisponivel;
@@ -72,7 +72,7 @@ namespace AppPingAndroid
                 lblCaminho.Text = "Caminho://ITAESBRA/" + Empresas.Empresa.ToString() + "/" + Empresas.Setor.ToString();
             }
         }
-        private void lvMaquinas_ItemTapped(object sender, ItemTappedEventArgs e)
+        private void LvMaquinas_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             if (lvMaquinas.SelectedItem == null)
                 return;

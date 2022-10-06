@@ -1,12 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppPingAndroid.Detalhes">
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             x:Class="AppPingAndroid.Detalhes"
+             Style="{StaticResource Key=PageStyle}"
+             Title="Planejamento e Controle de Produção - Programa de Produção">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="LogoPingTransp.ico"/>
+    </ContentPage.ToolbarItems>
+    
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="20">
+            <Frame BackgroundColor="#ED2500" Padding="10" CornerRadius="5" >
+                <Image Grid.Column="1" Source="LogoIebBranco" HorizontalOptions="Start" HeightRequest="50"/>
+            </Frame>
+            <StackLayout x:Name="stlQRCode">
+
+            </StackLayout>
         </StackLayout>
+        
     </ContentPage.Content>
 </ContentPage>

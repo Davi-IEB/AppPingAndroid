@@ -23,7 +23,7 @@
                 VerticalScrollBarVisibility="Always"
                 SelectionMode="Single"
                 HasUnevenRows="True"                
-               ItemTapped="lvMaquinas_ItemTapped">
+               ItemTapped="LvMaquinas_ItemTapped">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell x:Name="Linha" Tapped="Linha_Tapped">

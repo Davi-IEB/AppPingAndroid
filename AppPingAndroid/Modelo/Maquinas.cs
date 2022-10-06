@@ -37,6 +37,5 @@ namespace AppPingAndroid.Modelo
         public decimal Horas_necessarias { get; set; }
         public decimal Qtd_percentual { get; set; }
         public string Obs_alerta { get; set; }
-        public string Img { get; set; }
     }
 }
