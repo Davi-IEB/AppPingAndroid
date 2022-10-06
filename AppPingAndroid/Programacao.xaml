@@ -1,12 +1,134 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppPingAndroid.Programacao">
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             x:Class="AppPingAndroid.Programacao"
+             Style="{StaticResource Key=PageStyle}"
+             Title="Planejamento e Controle de Produção - Programa de Produção">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="LogoPingTransp.ico"/>
+    </ContentPage.ToolbarItems>
+    
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="20">
+            <Frame BackgroundColor="#ED2500" Padding="10" CornerRadius="5" >
+                <Image Grid.Column="1" Source="LogoIebBranco" HorizontalOptions="Start" HeightRequest="50"/>
+            </Frame>
+            <Label x:Name="lblCaminho" Text=""/>
+            <Frame Padding="10" CornerRadius="5" >
+                <Label x:Name="lblMaquina" TextColor="Black" FontSize="Title"/>
+            </Frame>
+            <ListView 
+                x:Name="LvPrograma"
+                Margin="0,30,0,0"                
+                RowHeight="120"                
+                VerticalScrollBarVisibility="Always"
+                SelectionMode="Single"
+                HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell x:Name="Linha" Tapped="Linha_Tapped">
+                            <StackLayout Orientation="Horizontal" Padding="10">
+                                <Frame Padding="10">
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label Text="{Binding Sequencia}" TextColor="Black" FontSize="16" FontAttributes="Bold" VerticalOptions="CenterAndExpand"/>
+                                        <Image Source="{Binding Img}" HeightRequest="70" WidthRequest="70" Margin="15,0,0,0" VerticalOptions="CenterAndExpand"/>
+                                    </StackLayout>
+                                </Frame>
+                                <StackLayout Orientation="Vertical" Margin="5,0,0,0" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
+                                    <Frame Padding="8">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Programa:" TextColor="Black" FontSize="10"/>
+                                            <Label Text="{Binding Num_programa}" TextColor="Black" FontSize="12" FontAttributes="Bold"/>
+                                            <Label Text="Data:" Margin="2,0,0,0" TextColor="Black" FontSize="10"/>
+                                            <Label Text="{Binding Data_programa}" TextColor="Black" FontSize="12" FontAttributes="Bold"/>
+                                        </StackLayout>
+                                    </Frame>
+                                    <Frame Padding="8">
+                                        <Grid ColumnDefinitions="*,100">
+                                            <Grid Grid.Column="0" RowDefinitions="*,*">
+                                                <StackLayout Grid.Row="0" Orientation="Horizontal">
+                                                    <Label Text="PartNumber:" TextColor="Black" FontSize="10"/>
+                                                    <Label Text="{Binding Cod_item_cliente}" TextColor="Black" FontSize="12" FontAttributes="Bold"/>
+                                                    <Label Text="Logix:" Margin="2,0,0,0" TextColor="Black" FontSize="10"/>
+                                                    <Label Text="{Binding Cod_item}" TextColor="Black" FontSize="12" FontAttributes="Bold"/>
+                                                </StackLayout>
+                                                <StackLayout Grid.Row="1" Orientation="Horizontal">
+                                                    <Label Text="Operação:" Margin="2,0,0,0" TextColor="Black" FontSize="10"/>
+                                                    <Label Text="{Binding Operacao}" TextColor="Black" FontSize="12" FontAttributes="Bold"/>
+                                                </StackLayout>
+                                            </Grid>
+                                            <StackLayout Grid.Column="1" Orientation="Horizontal">
+                                                <ImageButton
+                                                    x:Name="BtnDetalhe" 
+                                                    Source="details"
+                                                    BackgroundColor="GhostWhite"
+                                                    HeightRequest="40"
+                                                    WidthRequest="40"
+                                                    Padding="4"
+                                                    Clicked="BtnDetalhe_Clicked">
+
+                                                </ImageButton>
+                                                <ImageButton
+                                                    x:Name="BtnDocumento"
+                                                    Source="adobe"
+                                                    BackgroundColor="GhostWhite"
+                                                    HeightRequest="40"
+                                                    WidthRequest="40"
+                                                    Padding="7"
+                                                    Clicked="BtnDocumento_Clicked">
+
+                                                </ImageButton>
+                                            </StackLayout>
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Padding="8">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Ordem: " TextColor="Black" FontSize="10"/>
+                                            <Label Text="{Binding Num_ordem}" TextColor="Black" FontSize="12" FontAttributes="Bold"/>
+                                            <Label Text="Qtde. Planejada:" TextColor="Black" FontSize="10" Margin="2,0,0,0"/>
+                                            <Label Text="{Binding Qtd_planej}" TextColor="Black" FontSize="12" FontAttributes="Bold"/>
+                                            <Label Text="Qtde. Realizada:" TextColor="Black" FontSize="10" Margin="2,0,0,0"/>
+                                            <Label Text="{Binding Qtd_boas}" TextColor="Black" FontSize="12" FontAttributes="Bold"/>
+                                            <Label Text="Percentual:" Margin="2,0,0,0" TextColor="Black" FontSize="10"/>
+                                            <Label Text="{Binding Qtd_percentual, StringFormat='{0:P2}'}" TextColor="Black" FontSize="12" FontAttributes="Bold"/>
+                                            <Label Text="Hrs. Necessárias:" Margin="2,0,0,0" TextColor="Black" FontSize="10"/>
+                                            <Label Text="{Binding Horas_necessarias, StringFormat='{0:N2}'}" TextColor="Black" FontSize="12" FontAttributes="Bold"/>
+                                        </StackLayout>
+                                    </Frame>
+                                    <Frame Padding="8">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Image Source="" HeightRequest="20" WidthRequest="20" HorizontalOptions="Start">
+                                                <Image.Triggers>
+                                                    <DataTrigger TargetType="Image" Binding="{Binding Alerta}" Value="1">
+                                                        <Setter Property="Source" Value="atencao.png"/>
+                                                    </DataTrigger>
+                                                    <DataTrigger TargetType="Image" Binding="{Binding Alerta}" Value="2">
+                                                        <Setter Property="Source" Value="critico.png"/>
+                                                    </DataTrigger>
+                                                    <DataTrigger TargetType="Image" Binding="{Binding Alerta}" Value="3">
+                                                        <Setter Property="Source" Value="tryout.png"/>
+                                                    </DataTrigger>
+                                                    <DataTrigger TargetType="Image" Binding="{Binding Alerta}" Value="4">
+                                                        <Setter Property="Source" Value="desvio.png"/>
+                                                    </DataTrigger>
+                                                </Image.Triggers>
+                                            </Image>
+                                            <Label Text="Alerta/Observação" TextColor="Black" FontSize="10" Margin="2,0,0,0"/>
+                                            <Label Text="{Binding Obs_alerta}" TextColor="Black" FontSize="12" FontAttributes="Bold"/>
+                                        </StackLayout>
+                                    </Frame>
+                                </StackLayout>
+                            </StackLayout>
+                            <!--<ViewCell.ContextActions>                                
+                                <MenuItem x:Name="BtnDetalhes" Text="Detalhes" CommandParameter="{Binding .}" Clicked="BtnDetalhes_Clicked" IconImageSource="detail.png"/>
+                                <MenuItem x:Name="BtnDocumentacao" Text="Documentação" CommandParameter="{Binding .}" Clicked="BtnDocumentacao_Clicked" IconImageSource="adobe.png"/>
+                            </ViewCell.ContextActions>-->
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
