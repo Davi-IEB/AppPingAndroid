@@ -25,13 +25,12 @@ namespace AppPingAndroid
         }
         private async void AtualizaDados()
         {
-            programas = await DataService.GetProgramaAsync();
+            programas = await DataService.GetProgramaAsync();            
             var query = from i in programas where i.Cod_empresa == Empresas.Empresa.ToString() && i.Cod_equip == Empresas.Maquina.ToString() select i;
             LvPrograma.ItemsSource = query.OrderBy(x => x.Sequencia.ToString());
             lblCaminho.Text = "Caminho://ITAESBRA/" + Empresas.Empresa.ToString() + "/" + Empresas.Setor.ToString() + "/" + Empresas.Centro.ToString() + "/" + Empresas.Maquina.ToString();
             lblMaquina.Text = Empresas.Maquina.ToString();
         }
-
         private void Linha_Tapped(object sender, EventArgs e)
         {
             if (cell != null)
@@ -44,12 +43,10 @@ namespace AppPingAndroid
                 cell = viewCell;
             }
         }
-
         private async void BtnDetalhe_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Detalhes());
         }
-
         private void BtnDocumento_Clicked(object sender, EventArgs e)
         {
 

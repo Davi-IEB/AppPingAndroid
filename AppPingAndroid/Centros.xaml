@@ -15,7 +15,7 @@
                 <Image Grid.Column="1" Source="LogoIebBranco" HorizontalOptions="Start" HeightRequest="50"/>
             </Frame>
             <Label x:Name="lblCaminho" Text=""/>
-            <ImageButton 
+            <!--<ImageButton 
                 x:Name="BtnCapacidadeCritica"
                 Source="maquina_critica"
                 BackgroundColor="GhostWhite"
@@ -36,7 +36,7 @@
                         </x:Arguments>
                     </Size>
                 </android:ImageButton.ShadowOffset>
-            </ImageButton>
+            </ImageButton>-->
             <ListView 
                 x:Name="lvCentros"
                 Margin="30,10,30,0"

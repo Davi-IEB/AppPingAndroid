@@ -24,8 +24,8 @@ LEFT JOIN man_processo_item MP ON MP.empresa=ORD.cod_empresa AND MP.item=ORD.cod
 WHERE ORD.ies_situa IN('2','3','4')
 AND MP.validade_final IS NULL
 AND MP.operacao NOT IN('042','199')
+AND CT.cod_empresa='01'
 GROUP BY 1,2,3,4,5,6
 ORDER BY CT.cod_empresa, CT.setor
-
 
 

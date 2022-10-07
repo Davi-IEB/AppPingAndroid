@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
 using AppPingAndroid.Modelo;
+using System;
 
 namespace AppPingAndroid.Servico
 {
@@ -14,6 +15,7 @@ namespace AppPingAndroid.Servico
         readonly HttpClient centros = new HttpClient();
         readonly HttpClient maquinas = new HttpClient();
         readonly HttpClient programas = new HttpClient();
+        
         public async Task<List<Centro>> GetCentrosAsync()
         {
             var response = await centros.GetStringAsync(RequestUriCentros);
@@ -29,7 +31,7 @@ namespace AppPingAndroid.Servico
         public async Task<List<Programa>> GetProgramaAsync()
         {
             var response3 = await programas.GetStringAsync(RequestUriProgramas);
-            var prog = JsonConvert.DeserializeObject<List<Programa>>(response3);            
+            var prog = JsonConvert.DeserializeObject<List<Programa>>(response3);
             return prog;
         }
     }

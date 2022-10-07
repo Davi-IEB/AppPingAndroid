@@ -4,21 +4,16 @@
              xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
              x:Class="AppPingAndroid.Detalhes"
              Style="{StaticResource Key=PageStyle}"
-             Title="Planejamento e Controle de Produção - Programa de Produção">
+             Title="Planejamento e Controle de Produção - Detalhes da Ordem">
 
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="LogoPingTransp.ico"/>
-    </ContentPage.ToolbarItems>
-    
-    <ContentPage.Content>
-        <StackLayout Padding="20">
-            <Frame BackgroundColor="#ED2500" Padding="10" CornerRadius="5" >
+    </ContentPage.ToolbarItems>    
+    <ContentPage.Content>       
+        <StackLayout Grid.Row="1" x:Name="stlQRCode" Padding="20">
+            <Frame Grid.Row="0" BackgroundColor="#ED2500" Padding="10" CornerRadius="5">
                 <Image Grid.Column="1" Source="LogoIebBranco" HorizontalOptions="Start" HeightRequest="50"/>
-            </Frame>
-            <StackLayout x:Name="stlQRCode">
-
-            </StackLayout>
+            </Frame>            
         </StackLayout>
-        
     </ContentPage.Content>
 </ContentPage>

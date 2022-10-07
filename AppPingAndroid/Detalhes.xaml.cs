@@ -23,13 +23,17 @@ namespace AppPingAndroid
                 VerticalOptions = LayoutOptions.FillAndExpand,
                 AutomationId = "zxingBarcodeImageView",
             };
-            barcode.BarcodeFormat = ZXing.BarcodeFormat.QR_CODE;
+            barcode.BarcodeFormat = ZXing.BarcodeFormat.QR_CODE;            
             barcode.BarcodeOptions.Width = 200;
             barcode.BarcodeOptions.Height = 200;
             barcode.BarcodeOptions.Margin = 10;
             barcode.BarcodeValue = "123456789";
 
-            stlQRCode.Children.Add(barcode);
+            //stlQRCode.Children.Add(barcode);
+            Content = barcode;
+            
+           
+            
         }
     }
 }

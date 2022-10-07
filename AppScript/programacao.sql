@@ -18,8 +18,7 @@ WHEN CAST((ORD.qtd_planej - ORD.qtd_boas) AS INTEGER) < 0 THEN 0
 ELSE CAST((ORD.qtd_planej - ORD.qtd_boas) / MPI.qtd_pecas_ciclo AS DECIMAL(10,3))
 END AS horas_necessarias,
 CAST(ORD.qtd_boas / ORD.qtd_planej AS DECIMAL(10,3)) AS qtd_percentual,
-CASE
-WHEN PM.obs_alerta IS NULL THEN "-" ELSE PM.obs_alerta END AS obs_alerta
+PM.obs_alerta
 FROM tb_programa_maquina_970 PM
 LEFT JOIN ordens ORD ON ORD.cod_empresa=PM.cod_empresa AND ORD.num_ordem=PM.num_ordem
 LEFT JOIN ciclo_peca_970 CP ON CP.cod_empresa=ORD.cod_empresa AND CP.cod_item=ORD.cod_item
