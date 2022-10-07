@@ -29,6 +29,7 @@ namespace AppPingAndroid
             {
                 i.Horas_disponiveis = Disponibilidade.HDisponivel;
                 i.Percentual = i.Horas_necessarias / Disponibilidade.HDisponivel;
+                i.Setor = Empresas.Setor.ToString();
                 float f = (float)i.Percentual;
                 if (f >= 1)
                 {
@@ -54,19 +55,19 @@ namespace AppPingAndroid
             {
                 if (Empresas.Setor.ToString() == "ESTAMPARIA")
                 {
-                    var query = from i in maquinas where i.Cod_empresa == Empresas.Empresa.ToString() && i.Cod_cent_trab.Substring(0, 2).ToString() == "93" && (float)i.Percentual >= 0.9 select i;
+                    var query = from i in maquinas where i.Cod_empresa == Empresas.Empresa.ToString() && i.Setor == "ESTAMPARIA" && (float)i.Percentual >= 0.9 select i;
                     lvMaquinas.ItemsSource = query;
 
                 }
                 else if (Empresas.Setor.ToString() == "SOLDA")
                 {
-                    var query = from i in maquinas where i.Cod_empresa == Empresas.Empresa.ToString() && i.Cod_cent_trab.Substring(0, 2).ToString() == "95" && (float)i.Percentual >= 0.9 select i;
+                    var query = from i in maquinas where i.Cod_empresa == Empresas.Empresa.ToString() && i.Setor == "SOLDA" && (float)i.Percentual >= 0.9 select i;
                     lvMaquinas.ItemsSource = query;
 
                 }
                 else if (Empresas.Setor.ToString() == "USINAGEM")
                 {
-                    var query = from i in maquinas where i.Cod_empresa == Empresas.Empresa.ToString() && (i.Cod_cent_trab.Substring(0, 2).ToString() == "94" || i.Cod_cent_trab.Substring(0, 2).ToString() == "96") && (float)i.Percentual >= 0.9 select i;
+                    var query = from i in maquinas where i.Cod_empresa == Empresas.Empresa.ToString() && i.Setor == "USINAGEM" && (float)i.Percentual >= 0.9 select i;
                     lvMaquinas.ItemsSource = query;
                 }
                 lblCaminho.Text = "Caminho://ITAESBRA/" + Empresas.Empresa.ToString() + "/" + Empresas.Setor.ToString();

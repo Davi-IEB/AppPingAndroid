@@ -29,7 +29,7 @@ namespace AppPingAndroid.Servico
         public async Task<List<Programa>> GetProgramaAsync()
         {
             var response3 = await programas.GetStringAsync(RequestUriProgramas);
-            var prog = JsonConvert.DeserializeObject<List<Programa>>(response3);
+            var prog = JsonConvert.DeserializeObject<List<Programa>>(response3);            
             return prog;
         }
     }

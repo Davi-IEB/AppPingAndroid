@@ -6,7 +6,7 @@ namespace AppPingAndroid.Modelo
 {
     public class Maquina
     {
-        public string Cod_empresa { get; set; }
+        public string Cod_empresa { get; set; }        
         public string Cod_cent_trab { get; set; }
         public string Den_cent_trab { get; set; }
         public string Cod_equip { get; set; }
@@ -14,6 +14,7 @@ namespace AppPingAndroid.Modelo
         public decimal Horas_disponiveis { get; set; }
         public decimal Percentual { get; set; }
         public string StatusPercentual { get; set; }
+        public string Setor { get; set; }
     }
     public class Disponibilidade
     {
