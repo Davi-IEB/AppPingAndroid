@@ -9,8 +9,8 @@ namespace AppPingAndroid.Servico
 {
     public class ServicoDeDados
     {
-        private const string RequestUriCentros = "https://raw.githubusercontent.com/Davi-IEB/AppPingAndroid/master/AppJSon/grupo_centro.json";
-        private const string RequestUriMaquinas = "https://raw.githubusercontent.com/Davi-IEB/AppPingAndroid/master/AppJSon/centro_horas.json";
+        private const string RequestUriCentros = "https://raw.githubusercontent.com/Davi-IEB/AppPingAndroid/master/AppJSon/centro_horas.json";
+        private const string RequestUriMaquinas = "https://raw.githubusercontent.com/Davi-IEB/AppPingAndroid/master/AppJSon/grupo_centro.json";
         private const string RequestUriProgramas = "https://raw.githubusercontent.com/Davi-IEB/AppPingAndroid/master/AppJSon/programa_maquina.json";
         readonly HttpClient centros = new HttpClient();
         readonly HttpClient maquinas = new HttpClient();
